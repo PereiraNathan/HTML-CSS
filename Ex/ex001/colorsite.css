@@ -5,6 +5,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     background-color: white;
     margin: 0px;
@@ -12,7 +13,6 @@ header {
     box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.342);
     padding-bottom: 20px;
     border-radius: 0px 0px 10px 10px;
-
 }
 
 header > h1 {
@@ -21,17 +21,13 @@ header > h1 {
     padding-top: 20px;
     margin-bottom: 0px;
 }
+
 body {
     background-image:linear-gradient(to top,#ED7511,#ED9710,#EDB311);
     font-size: 1em;
-    margin: 0px;
-    
-    
-    
-    
-
-      
+    margin: 0px;     
 }
+
 main {
     background-color: rgba(255, 255, 255, 0.229);
     min-width: 300px;
@@ -39,11 +35,7 @@ main {
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     padding: 10px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);;
-    
-    
-
-   
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);;   
 } 
 
 main > h2#primeiro {
@@ -51,6 +43,7 @@ main > h2#primeiro {
     padding-top: 10px;
 
 }
+
 h1{
     text-align: center;
     color: #ED7511;
