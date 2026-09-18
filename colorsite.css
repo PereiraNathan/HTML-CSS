@@ -31,13 +31,15 @@ nav > a {
     text-decoration: none;
     color: #ED7511;
     margin-left: 20px;
+    padding: 10px
+    border-radius: 0px 0px 5px 5px;
 }
 
 nav > a:hover{
     background-color: lightgray;
     color: #ED9710;
-    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.342)
-     border-radius: 0px 0px 5px 5px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.342)
+    
 }
 body {
     background-image:linear-gradient(to top,#ED7511,#ED9710,#EDB311);
