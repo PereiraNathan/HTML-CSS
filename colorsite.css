@@ -24,6 +24,7 @@ header > h1 {
 
 header > nav {
     text-decoration: none;
+    padding: 10;
 }
 
 nav > a:hover{
