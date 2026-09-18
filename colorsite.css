@@ -10,9 +10,6 @@ header {
     background-color: white;
     margin: 0px;
     margin-bottom: 0px;
-    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.342);
-    padding-bottom: 20px;
-    border-radius: 0px 0px 10px 10px;
 }
 
 header > h1 {
@@ -22,14 +19,21 @@ header > h1 {
     margin-bottom: 0px;
 }
 
-header > nav {
-    text-decoration: none;
+nav {
     padding: 10px;
     margin-left: 20px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342)
+    
+}
+nav > a {
+    text-decoration: none;
 }
 
 nav > a:hover{
     background-color: lightgray;
+    color: #ED7511;
 }
 body {
     background-image:linear-gradient(to top,#ED7511,#ED9710,#EDB311);
@@ -44,7 +48,7 @@ main {
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     padding: 10px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);;   
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);   
 } 
 
 main > h2#primeiro {
