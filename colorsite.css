@@ -26,7 +26,7 @@ header > nav {
     text-decoration: none;
 }
 
-nav:hover{
+nav > a:hover{
     background-color: lightgray;
 }
 body {
