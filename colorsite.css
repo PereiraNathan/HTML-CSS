@@ -75,6 +75,14 @@ h1{
 
 h2{
     color: #284BC9;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0px -10px 0px -10px;
+    padding: 10px;
+}
+
+h3{
+   color: #3c4f87; 
 }
 
 p{
@@ -98,7 +106,32 @@ div.video > iframe {
 
 }
 
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
 
+td {
+    border: 1px solid;
+    padding: 2px;
+}
 
-
+footer{
+    background-color: #0040FC;
+    color: white;
+}
+footer > p{
+    text-align: center;
+}
+footer>p>a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+footer>p>a:hover{
+    background-color: white;
+    color: #0040FC;
+    border-radius: 5px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.342);
+}
 

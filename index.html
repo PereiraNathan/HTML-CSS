@@ -48,8 +48,6 @@
             &#x1F913;
         </p>
         
-        <hr>
-        
         <h2>imagens</h2>
         
         <P>para achar imagens sem direito autoral utilize o site unplash e pexels</P>
@@ -63,8 +61,6 @@
         <p>para adicionar um favicon pesquise favicon.io ou iconarchive.com </p>
         <p>melhor escolha arquivo ico</p>
         <p>va na parte head do codigo e digite link e procure link favicon e cole o endereço da imagem no href</p>
-        
-        <hr>
         
         <h2>formatação de texto</h2>
         
@@ -96,8 +92,6 @@
         
         <p>H<sub>2</sub>O  uso a tag sub</p>
         
-        <hr>
-        
         <h2>codigos e citações</h2>
         
         <h3><code>a tag code deixa as letras com o mesmo espaço utilizado</code></h3>
@@ -122,8 +116,6 @@
         <h3><abbr title="abreviatuta">abbr</abbr></h3>
         
         <p>utilizo a tag abbr para quando passar o mouse por cima da sigla apareça o significado</p>
-        
-        <hr>
         
         <h2>listas</h2>
         
@@ -157,8 +149,6 @@
             <dd>é uma lista que diz a definiçao do terno,iniciando com dl para criar a lista dt para dizer o termo e dd para a definição</dd>
         </dl>
         
-        <hr>
-        
         <h2>link</h2>
         
         <h3>links externos</h3>
@@ -176,8 +166,6 @@
         <a href="ocortico.pdf" download="ocortico.pdf" type="application/pdf">baixar livro em pdf</a>
         
         <p>igual os outros links porem troque target por download e coloque o nome do arquivo e troque rel por type e use o site mediatypes para procurar o type</p>
-        
-        <hr>
         
         <h2>imagens audios e videos</h2>
         
@@ -216,13 +204,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/1tjuhCdWPB4?si=8U7at5KVGytgf0uz&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <hr>
-        
-        <h1>design css</h1>
-        
-        <hr>
-        
-        <h2>tags uteis</h2>
+        <h2>tags uteis CSS</h2>
         
         <ul type="circle">
             <li>background-image limiar-gradiente: para criar degrade</li>
@@ -237,21 +219,15 @@
             <li>transition-duration para editar a duraçao da do comando</li>
         </ul>
         
-        <hr>
-        
         <h2>criando design</h2>
         
         <p>utilize o site mockflowpara o desenvolvimento de design</p>
         <p>utilize um arquivo css esclusivo para design e na parte head use a tag link css e adicione o link do arquivo</p>
         
-        <hr>
-        
         <h2>cores</h2>
         
         <p>utilizar adobe color e palleton para escolher as cores para o site</p>
         <p>utilize a extençao colorzila para copiar cores que viu em algum site</p>
-        
-        <hr>
         
         <h2>fontes</h2>
         
@@ -290,32 +266,77 @@
 
         <p>no background-size prefira utilizar o cover para cobrir a tela toda,o contain é para mostar a imagem td sem cortes</p>
         <p>coloque background-image e adicione url e insira o caminho da imagem</p>
-        <p>100 de VH(view port)</p>
+        <p>100 de VH(view port heigth) vw(view port width)</p>
         <p>background-repeat no repeat para nao repetir a imagem repeat y vertica e x horizontal</p>
         <p>background-position insir primeiro a coluna depois a linha,center left right bottom e top</p>
         <p>background-attachment fixed ou scroll,attachment=vinculo</p>
         <p>background shorthand primeiro color image position repeat size attachment</p>
         <p>o size é melhor por fora da shorthand pois costuma nao funcionar</p>
-        <p>para alinhamento de boxes crie duas divs uma dentro da outra a de fora coloque position absolute e a de dentro coloque absolute quando colocado absolute vc vai poder mexer com left e top da box coloque 50% pras duas depois crie um transform translate -50% -50% para centralizar a box </p>
+        <p>para alinhamento de boxes crie duas divs uma dentro da outra a de fora coloque position absolute e a de dentro coloque absolute quando colocado absolute vc vai poder mexer com left e top da box coloque 50% pras duas depois 
+        crie um transform translate -50% -50% para centralizar a box </p>
 
         <h2>tabelas</h2>
+
+        <table>
+            <caption>tabela</caption>
+            <thead>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A1</td>
+                    <td>A2</td>
+                    <td>A3</td>
+                </tr>
+                <tr>
+                    <td>B1</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                </tr>
+                <tr>
+                    <td>C1</td>
+                    <td>C2</td>
+                    <td>C3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">rodapé</th>
+                </tr>
+            </tfoot>
+        </table>
         <h3>hierarquia</h3>
         <pre>
-             table 
-               tr=table row
-                 th=table header 
-                 td=table data 
+             table
+                thead ou tbody ou tfoot
+                 tr=table row
+                     th=table header 
+                     td=table data 
         </pre>
         <h3>tags</h3>
         <p>utilize border-collapse:collapse para tirar os espaços entre as bordas das td's </p>
         <p>use text-align para alinhar horizontalmete e vertical-align para alinhar verticalmente</p>
+        <p>utilize scope dentro da tag th para deizer onde esta as informaçoes del se esta em col(vertical) ou em row(horizontal)</p>
+        <p>utilize caption para gerar uma legenda no topo da tabela,utilize depois do table</p>
+        <p>utilize tbody>tr:nth-child() para efeito zebrado,dentro do parenteses vc pode por odd,even,2n,2n-1</p>
+        <p>para nao perder o cabeçalho na rolagem de tela coloque no table position relative no thead>tr>th position stiky top 0 ou -1 e background color(para n descer somente a palavra)</p>
+        <p>utilize colspan e rowspan para expandir as celulas </p>
+        <p>para tornar a tabela responsiva evelope a tabela inteira em uma div e no css coloque nessa dive um overflow-x auto</p>
 
-
-        <h1>tecnicas de programaçao</h1>
+        <h2>tecnicas de programaçao</h2>
        
         <p>clique com o mouse segure o shift e clique em outra linha para escrever nelas ao msm tempo</p>
         <p>utilize ctrl shift p e selecione wrap with abreviation para envelopar o texto</p>
     </main>
+    <footer>
+        <hr>
+        <p>criador: <a href="https://github.com/PereiraNathan/HTML-CSS" target="_blank"> Nathan Pereira</a></p>
+        <hr>
+    </footer>
 
 
 
