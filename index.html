@@ -347,6 +347,36 @@
         <p>adicione srcdoc dentro do iframe pra criar um arquivo de html basico dentro do iframe que ainda nao esta ativo,escreva tudo em uma linha continua</p>
         <p>é possivel incorporar no iframe mapas do google maps e waze videos slides e planilhas do google docs</p>
 
+        <h2>formularios</h2>
+
+        <h3>basico</h3>
+
+        <p>utilize a tag form,dentro da tag vc vai criar um paragrafo escreva oq vc quiser pedir no formulario,utilize a tag imput e escolha o tipo
+        </p>
+        <p>para criar um botao de envio utilize a tag imput submit,e no value escreva o que fica escrito dentro do botao</p>
+        <p>para desligar o autocompletar va dentro da tag form e coloque autocomplete off</p>
+        <p>com autocomplete on vc pode escrever autocomplete dentro do input para indicar com que tipo ele deve completar</p>
+        <p>para indicar onde armazenar os dados dentro da tag form coloque action e adicione pra onde enviar os dados</p>
+        <p>envelope o oq vc pediu como label e no for coloque o id do input relacionado</p>
+        <p>exeiste dois tipos de method o get e o post,o get pode ser usado ate 3mil bytes e quando nao ha solicitaçao sensivel ou arquivos a serem enviados</p>
+        <p>adicione min ou max length para delimitar o tamanhodo que for inserido</p>
+        <p>no caso de numeros utilize o min e max para indicar a faixa</p>
+        <p>utilize step para indicar de quanro em quanto um numero varia,se pode ser escrido numeros com dacimos ou numeros inteiros por exemplo</p>
+        <p>escreva required dentro do input para ser um campo obrigatorio</p>
+        <p>utilize o value para ja deixar o campo preenchido com algo</p>
+        <p>utilize size dentro do input para mudar o tamanho dequantos caracteres vai aparecer</p>
+        <p>utilize o placeholder dentro do input para criar uma dica dentro da caixa</p>
+        <p>envelope td dentro do forms com fieldset para criar uma area com os campos a serem preenchidos</p>
+        <p>utilize a tag legend para criar um titulo</p>
+
+        <h3>estrutura</h3>
+
+        <form action="informaçao.php" method="post" autocomplete="off">
+            <p><label for="inome">name:</label>
+            <input type="text" name="nome" id="inome"> </p>
+            <input type="submit" value="enviar" required minlength="3">
+        </form>
+
     </main>
     <footer>
         <hr>
