@@ -28,7 +28,7 @@
         
         <hr>
         
-        <h2>vamos adicionar simbolos</h2>
+        <h2> símbolos</h2>
         
         <p>
             &euro;
@@ -351,7 +351,7 @@
 
         <h3>basico</h3>
 
-        <p>utilize a tag form,dentro da tag vc vai criar um paragrafo escreva oq vc quiser pedir no formulario,utilize a tag imput e escolha o tipo
+        <p>utilize a tag form,dentro da tag vc vai criar um paragrafo ou uma div e escreva oq vc quiser pedir no formulario,utilize a tag imput e escolha o tipo
         </p>
         <p>para criar um botao de envio utilize a tag imput submit,e no value escreva o que fica escrito dentro do botao</p>
         <p>para desligar o autocompletar va dentro da tag form e coloque autocomplete off</p>
@@ -368,6 +368,10 @@
         <p>utilize o placeholder dentro do input para criar uma dica dentro da caixa</p>
         <p>envelope td dentro do forms com fieldset para criar uma area com os campos a serem preenchidos</p>
         <p>utilize a tag legend para criar um titulo</p>
+        <p>utilize a tag select para criar uma seleçao de uma lista sem opçao de escrever,dps utilize a tag option para dizer as opçoes que vao aparecer</p>
+        <p>utilize a tag datalist para criar uma seleçao de uma lista com opçao de escrita,mas pra isso tem que criar um input com o id do datalist e dentro do datalist a tag option com as opçoes da lista </p>
+        <p>posso utilizar optgroup para criar divisoes de grupos dentro da lista</p>
+        <p>utilize o textarea para criar uma area de mensagem</p>
 
         <h3>estrutura</h3>
 
@@ -376,6 +380,29 @@
             <input type="text" name="nome" id="inome"> </p>
             <input type="submit" value="enviar" required minlength="3">
         </form>
+
+        <h3>radio e checkbox</h3>
+
+        <p>checkbox usado para marcar mais de uma opçao</p>
+        <p>radio usado para marcar apenas uma opçao,utilize o mesmo nome</p>
+
+        <fieldset>
+            <legend>esportes</legend>
+            <form action="cadastro.php">
+                <input type="checkbox" name="fut" id="ifut"> <label for="ifut"> futebol </label> <br>
+                <input type="checkbox" name="bas" id="ibas"> <label for="ibas"> basquete </label> <br>
+                <input type="checkbox" name="vol" id="ivol"> <label for="ivol"> volei </label> <br>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>sexo</legend>
+            <form action="cadastro.php">
+                <input type="radio" name="sexo" id="imas"> <label for="imas"> masculino </label> <br>
+                <input type="radio" name="sexo" id="ifem"> <label for="ifem"> feminino </label> <br>
+            </form>
+        </fieldset>
+            
 
     </main>
     <footer>
