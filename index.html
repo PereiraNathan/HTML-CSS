@@ -217,7 +217,7 @@
             <li>border: para adicionar borda</li>
             <li>display e adicione inline-block para ficarem na msm linha</li>
             <li>transition-duration para editar a duraçao do comando</li>
-            <li>transform translate para mudar o objeto de lugar</li>
+            <li>transform translate para mudar o objeto de lugar utilize sempre no final da declaraçao</li>
             <li>::-webkit-scrollbar para alterar a barra de rolagem</li>
             <li>float:para mudar a imagem de posição mas altere a largura e altura</li>
         </ul>
@@ -275,7 +275,7 @@
         <p>background-attachment fixed ou scroll,attachment=vinculo</p>
         <p>background shorthand primeiro color image position repeat size attachment</p>
         <p>o size é melhor por fora da shorthand pois costuma nao funcionar</p>
-        <p>para alinhamento de boxes crie duas divs uma dentro da outra a de fora coloque position absolute e a de dentro coloque absolute quando colocado absolute vc vai poder mexer com left e top da box coloque 50% pras duas depois 
+        <p>para alinhamento de boxes crie duas divs uma dentro da outra a de fora coloque position relative e a de dentro coloque absolute quando colocado absolute vc vai poder mexer com left e top da box coloque 50% pras duas depois 
         crie um transform translate -50% -50% para centralizar a box </p>
 
         <h2>tabelas</h2>
@@ -426,6 +426,21 @@
         Desktops / Laptops: 1025px – 1440px <br>
         Large / Extra-Large Desktops: 1441px and above <br>
     </p>
+
+    <h2>flex box</h2>
+
+    <p>container display:flex</p>
+    <p>item flex:auto</p>
+
+    <p>flex-direction=row row-reverse column column-reverse</p>
+
+    <p>main-axis e cross-axis</p>
+
+    <p>flex-wrap nowrap(padrao distorce)
+        wrap(quebra na direçao do cross-axis)
+        wrap-reverse(quebra na direçao contraria do cross-axis)
+    </p>
+    <p>flex-flow=flex-direction + flex-wrap</p>
             
 
     </main>
